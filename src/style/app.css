@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tenali+Ramakrishna&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+html{
+    scroll-behavior: smoothgit init;
+}
+#root,
+main,
+body,
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 1540px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
